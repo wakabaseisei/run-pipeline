@@ -1,0 +1,11 @@
+version: '3'
+services:
+  pipeline:
+    build:
+      context: .
+      dockerfile: ./docker/python/Dockerfile
+    container_name: pipeline
+    working_dir: /usr/src/app
+    tty: true
+    volumes:
+      - ./app:/usr/src/app
