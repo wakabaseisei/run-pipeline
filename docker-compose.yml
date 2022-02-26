@@ -9,3 +9,9 @@ services:
     tty: true
     volumes:
       - ./app:/usr/src/app
+      - site-packages:/usr/local/lib/python3.10/site-packages
+    ports:
+      - "8000:8000"
+volumes:
+  site-packages:
+    driver: local
