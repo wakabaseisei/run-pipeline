@@ -5,6 +5,8 @@ services:
       context: .
       dockerfile: ./docker/python/Dockerfile
     container_name: pipeline
+    environment:
+            GOOGLE_APPLICATION_CREDENTIALS: /app/google/key.json
     working_dir: /usr/src/app
     tty: true
     volumes:

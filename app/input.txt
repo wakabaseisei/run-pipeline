@@ -1,0 +1,6 @@
+{ "id": "1", "name": "ウミタナゴ", "sex": "1", "type": "ESFJ" }
+{ "id": "2", "name": "五月雨", "sex": "2", "type": "INTJ" }
+{ "id": "3", "name": "時岡", "sex": "1", "type": "ISFP" }
+{ "id": "4", "name": "怪物", "sex": "1", "type": "ENTP" }
+{ "id": "5", "name": "グミ", "sex": "2", "type" : "INFJ" }
+{ "id": "6", "name": "光太郎", "sex": "1", "type" : "INTJ" }
